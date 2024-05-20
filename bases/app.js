@@ -11,3 +11,4 @@ let b;
 function sayHello(msg) {
     console.log(msg);
 }
+//# sourceMappingURL=app.js.map

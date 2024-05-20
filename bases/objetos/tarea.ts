@@ -77,3 +77,5 @@ let mystique: (typeCharles | typeapocalipsis);
 
 mystique = charles;
 mystique = apocalipsis;
+
+console.log(batimovil);
