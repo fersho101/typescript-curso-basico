@@ -1,17 +1,44 @@
 "use strict";
+;
 (() => {
+    //Ejercicio 1
+    // let flash: {
+    // 	name: string
+    // 	age?: number
+    // 	powers: string[]
+    // 	getName: () => string
+    // } = {
+    // 	name: 'Barry Allen',
+    // 	age: 24,
+    // 	powers: ['Super speed', 'Time travel'],
+    //     getName() {
+    //         return this.name
+    //     },
+    // }
+    // flash = {
+    // 	name: 'Otro nombre',
+    // 	age: 60,
+    // 	powers: ['Super poder'],
+    // 	getName() {
+    // 		return this.name
+    // 	},
+    // }
+    // console.log(flash.getName())
+    //Ejercicio 2
     let flash = {
         name: 'Barry Allen',
         age: 24,
-        powers: ['Super speed', 'Time travel']
-    };
-    flash = {
-        name: 'Otro nombre',
-        age: 60,
-        powers: ['Super poder'],
+        powers: ['Super speed', 'Time travel'],
         getName() {
             return this.name;
-        }
+        },
     };
-    console.log(flash.getName());
+    let Superman = {
+        name: 'Clark Kent',
+        age: 40,
+        powers: ['Super speed', 'Strong'],
+        getName() {
+            return this.name;
+        },
+    };
 })();
