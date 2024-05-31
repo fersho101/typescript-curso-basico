@@ -1,13 +1,13 @@
 ;(() => {
-	console.log('let')
+	// console.log('let')
 
 	var a = 'Fernando'
-	console.log(a)
+	// console.log(a)
 
 	const NOMBRE = 'Corral'
 
 	const getName = (): void => {
-		console.log('Viejo getName')
+		// console.log('Viejo getName')
 	}
 
 	// getName = () => {
