@@ -1,4 +1,7 @@
 "use strict";
+(() => {
+
+
 const msg = 'Hola tsc';
 const hero = {
     name: "iron man",
@@ -183,4 +186,5 @@ console.log(batimovil);
     };
     console.log(typeof myCustomVariable);
 })();
+})() 
 //# sourceMappingURL=main.js.map
