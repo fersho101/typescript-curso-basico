@@ -32,7 +32,7 @@
     const avengerArr: string[] = ['Capitan America', 'ironman', 'Hulk', 'Magneto']
     // const ironman = avengerArr[1]
     const [capi,ironman] = avengerArr
-    console.log({ironman, capi})
+    // console.log({ironman, capi})
 
 
 
